@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
     
 }
 h1{
@@ -12,6 +13,7 @@ p{
     font-size: 20px;
     font-weight: 500;
     color: grey;
+    margin-bottom: 50px;
 
 }
 
@@ -27,4 +29,14 @@ section{
 
 .orange-clr{
     color: orange;
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    padding: 16px 30px;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, orange , tomato);
+    box-shadow: 1px 2px 15px rgba(255, 166, 0, 0.705);
+    
 }
